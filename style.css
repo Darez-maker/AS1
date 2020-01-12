@@ -21,7 +21,7 @@ body {
 }
 
 /*  Navbar*/
-#navbar{
+.navbar{
     display: flex;
     justify-content: space-between;
     background: #333;
@@ -33,17 +33,17 @@ body {
     border-bottom:3px solid #3693ff ;
 
 }
-#navbar ul{
+.navbar ul{
     display: flex;
     align-items: center;
     list-style: none;
 }
-#navbar h2 a{
+.navbar h2 a{
     color: #fff;
     text-decoration: none;
 }
 
-#navbar li a{
+.navbar li a{
     text-decoration: none;
     color: #fff;
     padding: 1rem;
@@ -53,7 +53,7 @@ body {
     transition: 0.3s;
 }
 
-#navbar li a:hover{
+.navbar li a:hover{
     background-color: #3693ff;
 }
 /**Showcase Area*/
@@ -138,10 +138,18 @@ body {
 }
 
 @media only screen and (max-width:858px){
-    .navbar{
-        width: 100%;
-        height: 100vh;
+    .navbar ul{
+        width: 47%;
+        height: 30vh;
+        display: block;
+        padding: 1rem;
+        margin: 0 0.5rem ;
+        position: relative;
     }
+    .navbar{
+        display: block;
+    }
+
 }
 
 

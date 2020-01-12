@@ -104,7 +104,7 @@ body {
   }
   
   .portfolio-item.one {
-    background: url("//picsum.photos/300/350");
+    background: url("images/img1.jpg");
     background-size: cover;
     background-position: top;
     background-color: #353535;
@@ -133,7 +133,7 @@ body {
   }
   
   .portfolio-item.two {
-    background: url("//picsum.photos/800/600");
+    background: url("images/img2.jpg");
     background-size: cover;
     background-position: top;
     background-color: #353535;
@@ -162,7 +162,7 @@ body {
   }
   
   .portfolio-item.three {
-    background: url("//picsum.photos/400/420");
+    background: url("images/img3.jpg");
     background-size: cover;
     background-position: top;
     background-color: #353535;
@@ -191,7 +191,7 @@ body {
   }
   
   .portfolio-item.four {
-    background: url("//picsum.photos/100/100");
+    background: url("images/img4.jpg");
     background-size: cover;
     background-position: center;
     background-color: #353535;
@@ -220,7 +220,7 @@ body {
   }
   
   .portfolio-item.five {
-    background: url("//picsum.photos/600/800");
+    background: url("images/img5.jpg");
     background-size: cover;
     background-position: right;
     background-color: #353535;
@@ -249,7 +249,7 @@ body {
   }
   
   .portfolio-item.six {
-    background: url("//picsum.photos/900/800");
+    background: url("/images/img6.jpg");
     background-size: cover;
     background-position: center;
     background-color: #353535;

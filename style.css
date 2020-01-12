@@ -137,7 +137,12 @@ body {
     flex: auto;
 }
 
-
+@media only screen and (max-width:858px){
+    .navbar{
+        width: 100%;
+        height: 100vh;
+    }
+}
 
 
 
